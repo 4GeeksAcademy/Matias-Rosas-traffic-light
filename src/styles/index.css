@@ -1,3 +1,54 @@
+.rectanguloSmall {
+    position: absolute;
+    left: 130px;
+    top: 10px;
+    background-color: black;
+    width: 10px;
+    height: 60px;
+
+}
+.rectanguloBig {
+    position: absolute;
+    top: 68px;
+    left: 91px;
+    background-color: black;
+    width: 90px;
+    height: 260px;
+    border-radius: 17px;
+}
+
+.circleGreen {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 180px;
+    left: 15px;
+    position: absolute;
+}
+.circleYellow {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 99px;
+    left: 15px;
+    position: absolute;
+}
+.circleRed {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: 20px;
+    left: 15px;
+    position: absolute;
+}
+
+.selected {
+    /* border-style: solid;
+    border-color: blanchedalmond; */
+    -webkit-box-shadow:0px 0px 105px 10px rgba(240,240,156,0.9);
+    -moz-box-shadow: 0px 0px 105px 10px rgba(240,240,156,0.9);
+    box-shadow: 0px 0px 105px 10px rgba(240,240,156,0.9);
+}
 
 /* 
 
